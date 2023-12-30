@@ -6,6 +6,8 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 
+##Install streamlit rdkit scikit-learn
+
 ###################
 # Custom Function #
 ###################
@@ -74,7 +76,7 @@ This app predicts the **Solubility (LogS)** values of molecules!
 st.sidebar.header("User Input Features")
 
 #Read SMILES input 
-# ( SMILES è un acronimo che sta per Simplified Molecular Input Line Entry System1. 
+# ( SMILES è un acronimo che sta per Simplified Molecular Input Line Entry System. 
 #   È un formato di rappresentazione delle molecole che permette di descrivere 
 #   la struttura di una molecola in modo semplice e compatto)
 
